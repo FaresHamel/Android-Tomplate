@@ -1,0 +1,17 @@
+<!-- this add in your xml file content imageview circle -->
+<com.google.android.material.imageview.ShapeableImageView
+
+                    android:id="@+id/image_profile"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                    app:srcCompat="@drawable/personal_pcture"
+                    android:scaleType="centerCrop"
+                    />
+
+<!-- this aded in your style xml file   -->
+<style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
